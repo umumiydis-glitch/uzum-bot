@@ -4,7 +4,7 @@ import schedule
 import time
 from datetime import datetime
 
-UZUM_API_TOKEN = "M4lHdDDaBA+FBGnmoJX/kmZcA+G8+viN6fkTO9ZKyso="
+UZUM_API_TOKEN = "7XzNQK1jc7C3nEZbRqMJw0n7r2TErDTMhOHaVH4qrnw="
 TELEGRAM_BOT_TOKEN = "8926029722:AAFcksw_URId2Hnl_UM9lg_SOz9mp-z1gac"
 TELEGRAM_CHAT_ID = "438934195"
 UZUM_URL = "https://api-seller.uzum.uz/api/seller-openapi/v1/finance/orders"
