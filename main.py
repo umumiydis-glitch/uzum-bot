@@ -29,7 +29,13 @@ def generate_report():
     except Exception as e:
         send_telegram(f"⚠️ *Xatolik:* {str(e)}")
 
+# 1. Bot ishga tushgani haqida xabar
 send_telegram("🚀 *Uzum Hisobot Boti qayta ishga tushirildi!*")
+
+# 2. Hozirning o'zida Hisobotni ham yuborib test qilamiz:
+generate_report()
+
+# 3. Har kuni soat 09:00 da hisobot yuborishni rejalashtirish
 schedule.every().day.at("09:00").do(generate_report)
 
 print("Bot ishlayapti...")
